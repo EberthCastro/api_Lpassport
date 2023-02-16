@@ -8,4 +8,13 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'public/dist',
+      },
 });
+
+// module.exports = {
+//     build: {
+//       outDir: 'public/dist',
+//     },
+//   };
